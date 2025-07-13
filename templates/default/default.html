@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>蝸牛筆記</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="{% static 'scripts/app.js' %}" defer></script>
+    <link rel="stylesheet" href="{% static 'styles/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/app.css' %}">
+</head>
+<nav>
+    {% include "share/navbar.html" %}
+</nav>
+<section>
+    {% include "share/sidebar.html" %}  
+</section>
+<body>
+    
+</body>
+
+<footer>
+    {%include "share/footer.html" %}
+</footer>
+</html>

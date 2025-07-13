@@ -1,8 +1,13 @@
-nav {
-    height: 5rem;
+.navbar {
+    background-color: #e2e8f0;
+    padding: 10px 20px;
     display: flex;
-    position: fixed;
-    top: 0;
-    margin: 0 auto;
-    background-color: burlywood;
+    justify-content: center;
+}
+
+.inner_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* width: 800px; */
 }

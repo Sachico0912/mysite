@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="{% static 'styles/reset.css' %}">
     <link rel="stylesheet" href="{% static 'styles/app.css' %}">
 </head>
-<nav>
-    {% include "share/navbar.html" %}
-</nav>
+<div class="navbar">
+{% include "share/navbar.html" %}
+</div>
+
 <section>
     {% include "share/sidebar.html" %}  
 </section>
